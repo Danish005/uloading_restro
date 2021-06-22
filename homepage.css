@@ -1,0 +1,242 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-image: url("./images/feature1.png") height: 480px;
+    ;
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+    margin: 0 auto;
+    font-size: 3.5rem;
+    color: rgb(155, 9, 9);
+    background: #fff;
+    border-radius: 50%;
+}
+
+
+/* -------------------feature section---------------- */
+
+.feature-section-image {
+    height: 480px;
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707), url("./images/feature1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.find-restaurent {
+    font-family: Poppins;
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1.53;
+    color: #ffffff;
+}
+
+.first-search {
+    /* margin: 0 auto; */
+}
+
+.search-row {
+    margin: 0 auto;
+}
+
+.hello {
+    position: absolute;
+    float: left;
+}
+
+
+/* quick-search */
+
+.quick-search {
+    width: 239px;
+    height: 43px;
+    padding-left: 0;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.53;
+    text-align: left;
+    color: #192f60;
+}
+
+.discover-restaurent {
+    padding-left: 0;
+    margin-left: 0;
+    width: 331px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.search-bar {
+    justify-content: center;
+}
+
+
+/* quick-search End */
+
+
+/* -- --------Box containers------- -- */
+
+.container .onee {
+    width: 360px;
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.50);
+    padding-left: 0;
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    vertical-align: top;
+}
+
+.right {
+    display: inline-block;
+    padding: -2px;
+    margin: 0;
+    width: 45%;
+    height: 100%;
+}
+
+.Breakfast {
+    width: 88px;
+    height: 25px;
+    margin: 25px 49px 4px 29px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.start-your-day {
+    width: 137px;
+    height: 62px;
+    margin: 4px 0 44px 29px;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    color: #8c96ab;
+}
+
+img {
+    padding: -2px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* <!-- -------- End Box containers------- --> */
+
+.input-icon.form-control {
+    padding-left: 2.375rem;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+/* media queries---------- */
+
+@media only screen and (max-width:360px) {
+    .down-heading {
+        margin-left: 4px;
+        margin-top: 23px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen (width:457.200px) {
+    .down-heading {
+        padding-left: 34px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:361px) and (max-width:440px) {
+    .down-heading {
+        margin-left: 26px;
+        margin-top: 38px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:441px) and (max-width:539px) {
+    .down-heading {
+        margin-left: 26px;
+        margin-top: 38px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:540px) and (max-width:576px) {
+    .down-heading {
+        margin-left: 26px;
+        margin-top: 38px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:770px) {
+    .down-heading {
+        margin-left: 191px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:771px) and (max-width:1050px) {
+    .down-heading {
+        margin-left: 136px;
+        margin-top: 38px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:561px) and (max-width:824px) {
+    .down-heading {
+        margin-left: 297px;
+        margin-top: 38px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:1196px) and (max-width:1327px) {
+    .down-heading {
+        margin-left: 117px;
+        margin-top: 38px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:1332px) {
+    .down-heading {
+        margin-left: 187px;
+        margin-top: 36px;
+        margin-bottom: 15px;
+    }
+}
