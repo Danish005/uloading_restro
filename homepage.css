@@ -37,10 +37,6 @@ body {
     color: #ffffff;
 }
 
-.first-search {
-    /* margin: 0 auto; */
-}
-
 .search-row {
     margin: 0 auto;
 }
@@ -48,6 +44,10 @@ body {
 .hello {
     position: absolute;
     float: left;
+}
+
+.search-icon {
+    padding: 13px;
 }
 
 
@@ -162,6 +162,13 @@ img {
 
 /* media queries---------- */
 
+
+/* ------footer----- */
+
+.background {
+    background-color: rgb(168, 101, 101)
+}
+
 @media only screen and (max-width:360px) {
     .down-heading {
         margin-left: 4px;
@@ -217,13 +224,14 @@ img {
     }
 }
 
-@media only screen and (min-width:561px) and (max-width:824px) {
+
+/* @media only screen and (min-width:561px) and (max-width:824px) {
     .down-heading {
         margin-left: 297px;
         margin-top: 38px;
         margin-bottom: 15px;
     }
-}
+} */
 
 @media only screen and (min-width:1196px) and (max-width:1327px) {
     .down-heading {
